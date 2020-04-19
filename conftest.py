@@ -17,9 +17,8 @@ def setup(request):
     print("initiating chrome driver")
     options = webdriver.ChromeOptions()
     options.add_experimental_option('useAutomationExtension', False)
-    driver = webdriver.Chrome(options=options,
-                              executable_path="C:\\Users\\systcs2b\\PycharmProjects\\TestSelenium\\chromedriver.exe")
-    # driver = webdriver.Chrome(executable_path="/Users/mac/PycharmProjects/Selenium_Automation1/chromedriver-2")
+    # driver = webdriver.Chrome(options=options,executable_path="C:\\Users\\systcs2b\\PycharmProjects\\TestSelenium\\chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="/Users/mac/PycharmProjects/Selenium_Automation1/chromedriver-2")
     driver.get("https://www.amazon.com")
     driver.maximize_window()
     driver.implicitly_wait(10)
