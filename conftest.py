@@ -6,7 +6,7 @@ import pytest
 def login_data():
     datadict = {
         "User": "xyzabc@gmail.com",
-        "password": "Test_12345"
+        "password": "Test_126666"
     }
     print(datadict)
     return datadict
