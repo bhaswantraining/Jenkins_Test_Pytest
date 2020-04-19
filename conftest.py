@@ -5,7 +5,7 @@ import pytest
 @pytest.fixture(scope="module")
 def login_data():
     datadict = {
-        "User": "abc@gmail.com",
+        "User": "xyz@gmail.com",
         "password": "Test_12345"
     }
     print(datadict)
